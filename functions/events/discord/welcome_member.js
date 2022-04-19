@@ -11,3 +11,5 @@ await lib.discord.channels['@0.2.0'].messages.create({
     ]
   }
 });
+
+//Discord - guild.member.add

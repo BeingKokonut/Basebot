@@ -12,3 +12,5 @@ if(context.params.event.channel_id == 947509762042495006)
   });
 }
 }
+
+//Discord - message.reaction.add

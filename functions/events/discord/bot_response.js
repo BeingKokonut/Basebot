@@ -26,3 +26,5 @@ if (message.mentions.users.has(client.user.id) == true)
 }
 });
 }
+
+//Discord - message.create
