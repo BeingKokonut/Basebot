@@ -1,0 +1,25 @@
+{
+  "name": "bmanamejeff/basebot",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/welcomeMember.js": {
+      "name": "discord.guild.member.add"
+    },
+    "functions/events/discord/botResponse.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/ping.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "ping"
+      }
+    },
+    "functions/events/discord/reactionRoles/removeRole.js": {
+      "name": "discord.message.reaction.remove"
+    },
+    "functions/events/discord/reactionRoles/addRole.js": {
+      "name": "discord.message.reaction.add"
+    }
+  }
+}
