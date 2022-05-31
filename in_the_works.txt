@@ -1,0 +1,5 @@
+1. Reaction Roles
+2. Music functions
+3. Moderation functions
+4. Join/Leave messages
+5. Info command
